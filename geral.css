@@ -5,6 +5,7 @@
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: rgb(126, 50, 248);
 
 }
 input {
@@ -12,6 +13,10 @@ input {
     color: black;
     border-radius: 5px;
     padding: 5px;
+}
+.calc input:focus{
+    background: mediumorchid;
+    color:rgb(73, 0, 116)
 }
 #sptotal {
     background-color: rgb(253, 152, 0);
@@ -32,4 +37,14 @@ input {
     background-color: rgb(133, 88, 255);
     color: black;
     cursor: pointer;
+}
+#spLista {
+    text-align: start;
+    border-style: dotted;
+    border-color: aliceblue;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: aliceblue;
+    color:lightcoral ;
+    margin-top: 10px;
 }
